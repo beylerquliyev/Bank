@@ -13,7 +13,7 @@ const Bank={
     Balance:0,
     Artirmag:function(value){
 
-        if(value<0||value==undefined||value.length==0){
+        if(value<=0||value==undefined||value.length==0){
             return alert("düzgün qeyd olunmayib")
         }
 
@@ -34,7 +34,7 @@ const Bank={
 
     },
     Cixartmag:function(value){
-        if(this.Balance-value<0||value==undefined||value.length==0){
+        if(this.Balance-value<=0||value==undefined||value.length==0){
             return alert ("balansda geyd olunan mebleg yoxdur")
 
         }
