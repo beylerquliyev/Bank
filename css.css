@@ -1,0 +1,44 @@
+header img{
+    width: 300px;
+    height: 100px;
+    background-size: cover;
+    
+   
+}
+header{
+    height: 100px;
+   
+}
+main{
+    background-color: aqua;
+    height:950px ;
+}
+
+.full{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    gap: 50px;
+
+    margin-top: 150px;
+    
+}
+
+.inpt1{
+    width: 500px;
+    height: 40px;
+    border: none;
+}
+.btn-full{
+    display: flex;
+    gap: 45px;
+}
+.Balance{
+    color: rgb(67, 67, 246);
+}
+
+.table{
+    margin-left: 200px;
+    margin-right: 200px;
+}
